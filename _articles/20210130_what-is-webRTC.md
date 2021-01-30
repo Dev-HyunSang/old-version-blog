@@ -10,7 +10,7 @@ tags: "WebRTC"
 저는 [TeamGRIT](https://teamgrit.kr/)에서 WebRTC을 활용하여서 Spider라는 멀티미디어 서비스를 개발하고 있습니다.
 
 # WebRTC란 무엇인가요?
-**WebRTC(Web Real-Time Communications)** 란, 웹 어플리케이션(최근에는 Android 및 IOS도 지원) 및 사이트들이 별도의 소프트웨어 없이 음성, 영상 미디어 혹은 텍스트, 파일 같은 데이터를 브라우져끼리 주고 받을 수 있게 만든 기술입니다. WebRTC로 구성된 프로그램들은 별도의 플러그인이나 소프트웨어 없이 P2P 화상회의 및 데이터 공유를 합니다.
+**WebRTC(Web Real-Time Communications)** 란, 웹 어플리케이션(최근에는 Android 및 IOS도 지원) 및 사이트들이 별도의 소프트웨어 없이 음성, 영상 미디어 혹은 텍스트, 파일 같은 데이터를 브라우저끼리 주고 받을 수 있게 만든 기술입니다. WebRTC로 구성된 프로그램들은 별도의 플러그인이나 소프트웨어 없이 P2P 화상회의 및 데이터 공유를 합니다.
 
 **간단히 요약해서 말하게 되면!**  
 웹 브라우저 상에서 다른 플러그인, 모듈이 필요 없이 음성 채팅, 화상 채팅, 데이터 교환까지 가능한 기술입니다.
@@ -24,7 +24,7 @@ WebRTC에 사용되는 기술은 여러 가지가 있지만 크게 3가지의 �
 - RTCDataChannel — 일반적인 데이터의 P2P 통신
 
 이 3가지의 객체를 통해서 데이터 교환이 이뤄지며 RTCPeerConnection들이 적절하게 데이터를 교환할 수 있게 처리해 주는 과정을 시그널링(Signaling)이라고 합니다.  
-위 그림은 시그널링 하는 과정을 나타내는 것이며, PeerConnection은 두 명의 유저가 스트림을 주고 받는 것이므로 연결을 요청하는 콜러(Caller)와 연결을 받는 콜리(Callee)가 존재합니다.  
+아래 그림은 시그널링 하는 과정을 나타내는 것이며, PeerConnection은 두 명의 유저가 스트림을 주고 받는 것이므로 연결을 요청하는 콜러(Caller)와 연결을 받는 콜리(Callee)가 존재합니다.  
 
 ![WebRTC Image](https://miro.medium.com/max/700/1*Lhsz8eckhNrXDehMo2hQyA.png)
 
