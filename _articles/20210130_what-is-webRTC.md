@@ -42,10 +42,7 @@ Web RTC는 P2P에 최적화 되어 있습니다.
 [**Build the backend services needed for a WebRTC app**](https://www.html5rocks.com/ko/tutorials/webrtc/infrastructure/)을 읽어 보시면 도움이 많이 됩니다.
 
 ## STUN (Session Traversal Utilities for NAT)
-<div style="text-align:center">
-
 ![WebRTC Image](https://miro.medium.com/max/259/1*80Z67TRcEZnqHj3dWSi2cg.png)
-</div>
 
 **Session Traversal Utilities for NAT (STUN)** 는 당신의 공재적 주소(Public Address)를 발견하거나 Peer 간의 직접 연결을 막는 등의 라우터의 제한을 결정하는 프로토콜 입니다. 클라이언트는 인터넷을 통해 클라이언트의 공개 주소와 라우터의 NAT 뒤에 있는 클라이언트가 접근 가능 한지에 대한 답변을 위한 요청을 STUN 서버에 보냅니다.
 
@@ -60,10 +57,7 @@ Network Address Translation (NAT)는 단말에 공개 IP 주소를 할당하기 
 **Traversal Using Relays around NAT (TURN)** 은 TURN 서버와 연결하고 모든 정보를 그 서버에 전달하는 것으로 Symmetric NAT 제한을 우회하는 것을 의미합니다.
 이를 위해 TURN 서버와 연결을 한 후 모든 peer들에게 저 서버에 모든 패킷을 보내고 다시 나에게 전달해달라고 해야 합니다. 이것은 명백히 오버헤드가 발생하므로 이 방법은 다른 대안이 없을 경우만 사용하게 됩니다.
 
-<div style="text-align:center">
-
 ![WebRTC Image](https://miro.medium.com/max/295/1*WSa3buqCC42Jc4Qygi9jXw.png)
-</div>
 
 ## SDP (Session Description Protocol)
 세션 기술 프로토콜(Session Description Protocol,SDP)은 스트리밍 미디어의 초기화 인수를 기술하기 위한 포맷입니다. 본 규격은 IETF(국제 인터넷 표준화 기구)의 RFC 4566로 규격이 공식화 되어 있습니다.
