@@ -1,6 +1,6 @@
 ---
-id: 1
-title: "Docker란?"
+id: 2
+title: "Docker란 무엇인가요?"
 subtitle: "요즘 핫한 Docker에 대해서!"
 date: "2021.01.31"
 tags: "Docker"
