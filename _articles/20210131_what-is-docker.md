@@ -22,7 +22,7 @@ tags: "Docker"
 
 이러한 상황을 개선하기 위해서 CPU의 다양한 기술들이 나왔습니다.
 
-## 이미지(Image)
+# 이미지(Image)
 ![](https://media.vlpt.us/images/matisse/post/f810bf29-399d-4e31-a9f7-0216462e3a53/image.png)
 
 도커에서 가장 중요한 개념은 컨테이너와 함께 이미지라는 개념입니다.  
