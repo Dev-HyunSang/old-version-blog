@@ -1,13 +1,13 @@
 ---
 id: 1
-title: "MacOS에 Docker 설치하기"
-subtitle: "MacOS에 Docker 설치하는 방법"
+title: "macOS에 Docker 설치하기"
+subtitle: "macOS에 Docker 설치하는 방법"
 date: "2021.01.31"
 tags: "Docker"
 ---
 
-# Docker 설치하기 - Mac
-Docker를 설치하는 방법에 대해서 알려드리겠습니다. Mac OS 사용자 분들에게만 해당하는 내용입니다. [brew](https://brew.sh/index_ko)을 이용해서 손 쉽게 설치하실 수 있습니다.    
+# Docker 설치하기 - macOS
+Docker를 설치하는 방법에 대해서 알려드리겠습니다. macOS 사용자 분들에게만 해당하는 내용입니다. [brew](https://brew.sh/index_ko)을 이용해서 손 쉽게 설치하실 수 있습니다.    
 ```shell
 $ brew install docker
 ```
