@@ -29,8 +29,8 @@ $ npm install -d ts-node
 $ npm install -d ts-node-dev
 $ npm install -d --save nodemon
 $ npm install -d --save express
-$ npm install @types/exprss
-$ npm install -d @types/node
+$ npm install -d --save @types/exprss
+$ npm install -d --save @types/node
 ```
 ```npm init -y```를 통해서 npm 패키지에 관한 정보와 버전을 설정할 수 있는 ```package.json```를 만들겠습니다.  
 ```tsc --init```를 통해서 TypeScript 프로젝트에 필요한 ```tsconfig.json```를 생성 시켜 주시면 됩니다.
