@@ -23,6 +23,4 @@ thumbnail: "https://github.com/Dev-HyunSang/Dev-HyunSang/blob/master/images/5_i0
 지속적인 정보보호와 개인정보보호에 대한 수업을 듣고 실습을 하고 있습니다.  
 4권역 정보보안 경진대회에도 2회 참여하였습니다.
 
-![](https://github.com/Dev-HyunSang/Dev-HyunSang/blob/master/images/1_ii3Ud018svcoqcw3mfdt7ds_rvkom4.jpg)
-
-![](https://github.com/Dev-HyunSang/Dev-HyunSang/blob/master/images/5_i03Ud018svc17po9sn5jypph_rvkom4.jpg)
+![Images](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/5_i03Ud018svc17po9sn5jypph_rvkom4.jpg)
