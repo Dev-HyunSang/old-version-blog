@@ -1,7 +1,7 @@
 ---
 id: 6
 title: "WebRTC에서 TURN 서버는 무엇일까요?"
-subtitle: "TypeScript 초보자 프로젝"
+subtitle: "TURN 서버? 처음 들어보는데"
 date: "2021.02.25"
 tags: "WebRTC"
 ---
