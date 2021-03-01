@@ -45,7 +45,7 @@ beforeUpdate는 관찰하고 있는 데이터가 변경되면 가상 돔으로 �
 ## destroyed
 뷰 인스턴스가 파괴되고 나서 호출되는 단계입니다. 뷰 인스턴스에 정의한 모든 속성이 제거되고 하위에 선언한 인스턴스들 또한 모두 파괴됩니다.
 
-## 참고하거나 읽으면 좋은 문서
+# 참고하거나 읽으면 좋은 문서
 [Do it! Vue.js 입문](http://www.yes24.com/Product/Goods/58206961)를 읽고 기록하였습니다.
 - [Cracking Vue.js 인스턴스 라이프 사이클](https://joshua1988.github.io/vue-camp/vue/life-cycle.html#%EB%9D%BC%EC%9D%B4%ED%94%84-%EC%82%AC%EC%9D%B4%ED%81%B4-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8)
 - [created](https://vuejs.org/v2/api/#created)
