@@ -3,7 +3,7 @@ id: 8
 title: "Docker기반의 Jenkins 설치하기"
 subtitle: "Docker를 통한 Jenkins 설치하기" 
 date: "2021.03.01"
-tags: "Docker, Jenkins"
+tags: "Docker, Jenkins, DevOps, CI/CD"
 ---
 안녕하세요, 요즘 DevOps에 관심이 생겨서 Docker에 Jenkins를 설치하고 구동하는 방법에 대해서 알려드리겠습니다. Back-End를 하시는 분들도 어느 정도 DevOps를 하실 줄 아시는 걸로 알고 있습니다.
 
