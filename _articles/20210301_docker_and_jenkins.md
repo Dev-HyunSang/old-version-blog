@@ -58,7 +58,7 @@ Jenkins Log를 보게 되면 비밀번호가 나오게 됩니다.
 
 Jenkins Plugins 설치해 주셔야 합니다.  
 사진 기준으로 오른쪽 선택시 **자신이 하나하나 선택해서 플러그인을 설치**합니다.  
-윈쪽 선택시 **기본적인 플러그인을 설치**합니다.
+왼쪽 선택시 **기본적인 플러그인을 설치**합니다.
 
 ![images](https://raw.githubusercontent.com/Dev-HyunSang/Dev-HyunSang/master/images/20210301_docker/09.png)
 
