@@ -25,7 +25,7 @@ AWS CLI를 이용하기 위해서 brew를 이용하여서 AWS CLI를 설치하�
 $ brew install awscli
 ```
 
-eksctl는 [**eksctl 설치하기**](./eksctl-install)에서 확인하실 수 있습니다.
+eksctl는 [**eksctl 설치하기**](https://github.com/Dev-HyunSang/TIL/blob/main/Cloud/eksctl-install.md)에서 확인하실 수 있습니다.
 
 아래와 같이 kubectl 설치 및 설정을 할 수 있습니다.
 ```bash
