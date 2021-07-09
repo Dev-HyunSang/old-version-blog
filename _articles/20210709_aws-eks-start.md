@@ -123,7 +123,7 @@ EKS에 접속하기 위해서는 인증정보는 AWS CLI로 확인 가능하며 
 ![09](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/09.png)
 
 마지막으로 kubectl에서 EKS 클러스터에 접속 가능 여부를 확인해 보겠습니다.  
-다음 명령을 실해앟게 되면 정상적으로 EKS 클러스터에 접속할 수 있다면 아래와 같이 표시됩니다.  
+다음 명령을 실행하게 되면 정상적으로 EKS 클러스터에 접속할 수 있다면 아래와 같이 표시됩니다.  
 
 ![10](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/10.png)
 
