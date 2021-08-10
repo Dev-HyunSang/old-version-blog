@@ -10,8 +10,9 @@ tags: "Golang", "Software Enginnering"
 
 # 내가 Go를 선택한 이유
 Go를 사용하게 된 이유는 다양한 이유가 있습니다.  
-**첫번째**, "다양한 회사에서 다양한 서비스를 하고 있다."  
-다양한 회사에서 다양한 서비스를 Go로 개발하여서 돌아가고 있다는 사실을 알게 되었습니다.
+다양한 회사에서 다양한 서비스를 하고 있고 타입의 명확성이 있어서 선택하게 되었습니다.  
+또한 Docker, Kubernetes도 Go로 만들어진 사실을 알고 더 확고히 하게 되었습니다.  
+다양한 회사에서 다양한 서비스를 Go로 개발하여서 돌아가고 있다는 사실을 알게 되었습니다.  
 - [당근마켓 개발팀 - 당근마켓의 고언어 도입기, 그리고 활용법](https://youtu.be/mLIthm96u2Q)
 - [Uber - How We Built Uber Engineering’s Highest Query per Second Service Using Go ](https://eng.uber.com/go-geofence-highest-query-per-second-service/
 )
