@@ -20,7 +20,7 @@ Go를 사용하게 된 이유는 다양한 이유가 있습니다.
 - [Samsung SDS - Google이 만든 프로그래밍 언어, Go](https://www.samsungsds.com/kr/insights/golang.html)
 
 위와 같은 자료를 보고 나서 "우와, Golang라는 언어가 흥미로운 점이 많네"를 느꼈습니다.  
-또한 TeamGRIT, Inc의 일부 시스템이 Golnag으로 이루어져 있어서 이러한 부분도 어느 정도의 Go를 더 흥미롭게 하는데 일조를 한 것 같습니다.
+또한 제가 다니고 있는 [TeamGRIT, Inc](https://www.teamgrit.kr/)의 일부 시스템이 Golnag으로 이루어져 있어서 이러한 부분도 어느 정도의 Go를 더 흥미롭게 하는데 일조를 한 것 같습니다.
 
 그럼 Golang에 있어서 장, 단점도 알아 보면 더 좋을 것 같아서 같이 이야기 해 보겠습니다.
 
