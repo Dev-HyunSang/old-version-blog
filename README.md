@@ -9,6 +9,8 @@
 
   </h1>
   
+  **주의 사항: Node.js LTS 버전을 사용하지 않아서 오류가 발생할 수 있습니다.**
+  
   <strong>Read this document in another language:</strong> [:kr:](README-KO.md) [:indonesia:](README-ID.md) [:brazil:](README-PT-BR.md) [:it:](README-IT.md) [:malaysia:](README-MS.md)
 </div>
 
