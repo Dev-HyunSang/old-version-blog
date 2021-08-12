@@ -19,7 +19,7 @@ tags: "Kubernetes", "Dev-Ops", "Infrastructure"
 - 큐브어드민(kubeadm)
 - 랜처(Rancher)
 
-<img src="https://www.cncf.io/wp-content/uploads/2020/07/certified_kubernetes_color-1.png" alt="Certified Kubernetes Distribution/Platform Logo" width="200" height="250" >
+![Certified Kubernetes Distribution/Platform Logo](https://www.cncf.io/wp-content/uploads/2020/07/certified_kubernetes_color-1.png")
 
 위에서 언급한 모든 방법들은 쿠버네티스 적합성 인증 프로그램에서 인증된 Certified Kubernetes Distribution/Platform입니다.  
 오늘은 미니큐브(Minikube)와 Kind(Kubernetes in Docker)를 사용하겠습니다.
