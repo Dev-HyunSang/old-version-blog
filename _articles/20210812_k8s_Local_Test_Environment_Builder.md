@@ -7,7 +7,7 @@ tags: "Kubernetes", "Dev-Ops", "Infrastructure"
 ---
 안녕하세요, 요즘 Kubernetes에 대해서 엄청나게 열심히 공부하고 있고 관심도 많습니다.  
 클라우드 환경이나 온프레미스 환경에서의 Kubernetes 기반의 서버를 돌리기 전 로컬에서도 Kubernetes가 잘 동작하고 있는지 살펴보아야 합니다.  
-오늘은 어떻게 하면 로컬에서 Kubernetes를 구축 해 보겠습
+오늘은 어떻게 하면 로컬에서 Kubernetes를 구축 해 보겠습니다.
 
 # Certified Kubernetes Distribution/Platform
 로컬에서 쿠버네티스를 구동하는 방법은 다양합니다.  
