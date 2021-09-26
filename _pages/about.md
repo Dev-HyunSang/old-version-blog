@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image:
+image: 01.jpg
 ---
 
 안녕하세요, 박현상입니다. 주로 영어 닉네임으로 Aaron으로 활동하고 있습니다.  
