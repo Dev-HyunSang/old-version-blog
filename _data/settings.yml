@@ -9,7 +9,7 @@ description: Zolan is modern minimal theme for Jekyll
 # Author Settings
 author:
   name: HyunSang Park
-  # image: 01.jpg
+  image: 01.jpg
   say-hello: <strong>안녕하세요!</strong>
   bio: 주로 Dev-Ops와 Back-End 개발을 주로 하고 있으며,<br>다양한 분들과 함께 이야기 하는 것을 좋아합니다.
 
