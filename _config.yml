@@ -18,15 +18,20 @@ texture:
   title: HyunSang Park
   tagline: Software Enginner & Researcher
   date_format: "%b %-d, %Y"
-  style: black
-  showNav: false
+  style: blue
+  showNav: true
   showPicker: false
+  navigation:
+    - title: Home
+      url: "/"
+    - title: About
+      url: "/about"
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: hyunsang_0625
+    github:  dev-hyunsang
+    linkedIn: in/hyunsangpark
     rss: rss
  
 
