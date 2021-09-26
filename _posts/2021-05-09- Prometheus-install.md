@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Ubuntu20.04에서 Prometheus 설치하기
-date: 2021.05.09
-image: 03.jpg
+date: 2021.05.09 
+image: 
 tags: DevOps
 ---
 안녕하세요. 제가 요즘 관심이 많은 Prometheus와 Prometheus Exprot를 이용해서 서버 상태를 수집하고 시각화 하는 방법에 대해서 이야기 해 볼려고 합니다.
