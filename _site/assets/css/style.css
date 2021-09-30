@@ -389,7 +389,7 @@ header .social li i:hover { color: #999; }
 
 .clearfix { clear: both; }
 
-.container { margin: 0 150px; max-width: 720px; }
+.container { margin: 0 150px; max-width: 1000px; }
 
 .container div.highlighter-rouge { right: 150px; }
 
