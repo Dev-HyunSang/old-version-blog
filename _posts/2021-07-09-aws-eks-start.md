@@ -44,24 +44,24 @@ $ git clone https://github.com/dybooksIT/k8s-aws-book.git
 [CloudFormation] 페이지를 열어서 스택 생성을 누르시면 됩니다!  
 이제 [01_base_resources_cfn.yaml](https://github.com/dybooksIT/k8s-aws-book/blob/master/eks-env/01_base_resources_cfn.yaml)를 통해서 설정하시면 됩니다.  
 
-![01](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/01.png)
+![01](/images/aws-eks-start/01.png)
 
 위와 같이 준비된 템플릿 &rarr; 템플릿 파일 업로드에서 파일 선택을 통해서 위에서 언급한 파일을 선택해 주시면 됩니다!  
 
-![02](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/02.png)
+![02](/images/aws-eks-start/02.png)
 
 스택 이름 설정을 해 주셔야 합니다. 아래와 같은 파라미터는 안 건들으셔도 됩니다.
 제가 읽고 있는 책에서는 `eks-work-base`로 하였습니다.
 
-![03](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/03.png)
+![03](/images/aws-eks-start/03.png)
 
 스택 세부 정보 지정에서는 스킵하셔도 됩니다.
 
-![04](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/04.png)
+![04](/images/aws-eks-start/04.png)
 
 검토에서도 스킵하셔도 됩니다.
 
-![05](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/05.png)
+![](/images/aws-eks-start/05.png)
 
 정상적으로 기본 리소스가 생성되었습니다.  
 이제 상단 오른쪽의 새로 고침을 통해서 상태를 확인해 주시면 됩니다.
@@ -74,7 +74,7 @@ EKS 클러스터를 구축하기 전에는 앞에서 생성한 기본 리소스 
 이 정보는 CloudFormation 스택 상세 정보에서 확일 할 수 있습니다. 보통 리소스 생성 완료 후(상태가 CREATE_COMPLETE가 된 이후) CloudFormation의 스택 상세 정보를 보면 '출력' 탭에서 작업에 필요한 정보가 표시됩니다.  
 출력에서 확인할 수 있습니다.
 
-![06](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/06.png)
+![06](/images/aws-eks-start/06.png)
 
 #### eksctl 실행
 eksctl 명령어는 옵션으로 피라미터를 설정하는 경우 다양한 구성의 EKS 클러스터를 구축할 수 있습니다.  
@@ -94,7 +94,7 @@ $ eksctl create cluster \
 > --nodes-max 5 
 ```
 
-![07](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/07.png)
+![07](/images/aws-eks-start/07.png)
 
 eksctl에서는 명령어를 실행하면 구축 환경 설정을 끝낼 수 있습니다.
 
@@ -103,7 +103,7 @@ AWS 콘솔에서 CloudFormation에서 진행 상황을 확인할 수 있습니�
 물론 Shell에서도 확인할 수 있지만 AWS 콘솔에서도 확인할 수 있습니다.  
 처음에 했던 `eks-work-base`와 같이 확인할 수 있습니다.  
 
-![08](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/08.png)
+![08](/images/aws-eks-start/08.png)
 
 이렇게 확인할 수 있습니다. eksctl를 통해서 생성되었다는 것을 확인할 수 있습니다.  
 `CREATE_COMPLTE`라고 정상적으로 생성된 것을 볼 수 있습니다.
@@ -118,36 +118,36 @@ Kubeconfig 파일은 쿠버네티스 클라이언트인 kubectl이 이용할 설
 
 EKS에 접속하기 위해서는 인증정보는 AWS CLI로 확인 가능하며 eksctl을 사용하여 AWS CLI를 호출하여 인증하기 위한 설정을 kubeconfig 파일에 포함할 수 있습니다.
 
-![09](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/09.png)
+![09](/images/aws-eks-start/09.png)
 
 마지막으로 kubectl에서 EKS 클러스터에 접속 가능 여부를 확인해 보겠습니다.  
 다음 명령을 실행하게 되면 정상적으로 EKS 클러스터에 접속할 수 있다면 아래와 같이 표시됩니다.  
 
-![10](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/10.png)
+![10](/images/aws-eks-start/10.png)
 
 ### EKS 클러스터 동작 확인
 이상으로 EKS 클러스터 구축이 완료되었습니다. 구축한 클러스터가 정상적으로 동작하는지 확인해 보겠습니다.  
 처음에 말한 예제 폴더가 필요합니다. eks-env 디렉토리로 이동한 후 아래와 같은 명령을 실행하면 콘솔에 다음과 같은 메시지가 출력됩니다.
 
-![11](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/11.png)
+![11](/images/aws-eks-start/11.png)
 
 정상적을호 pod가 생성된 것을 확인할 수 있습니다.
 
-![12](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/12.png)
+![12](/images/aws-eks-start/12.png)
 
 정상적으로 pod가 생성되었다면 위와 같은 메시지가 출력됩니다.
 
-![13](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/13.png)
+![13](/images/aws-eks-start/13.png)
 
 위 명령을 통해서 클러스터에 대해서 포트 포워딩을 해 보겠습니다.  
 이 명령을 통해서 로컬 컴퓨터에서 실행한 상태로 8080번 포트에 접속하면 방금 실행한 nginx-pod가 80번 포트로 해당 정보를 전송하게 됩니다. nginx 서버에 접속할 수 있게 됩니다.
 
 웹 브라우저를 실행해 http://localhost:8080애 접속하게 되면 EKS 클러스터가 정상적으로 동작하고 있다면 아래와 같은 사진으로 아주아주 잘 보이게 됩니다.
 
-![14](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/14.png)
+![14](/images/aws-eks-start/14.png)
 
 ### pod 삭제 방법
-![15](https://raw.githubusercontent.com/dev-hyunsang/dev-hyunsang/master/images/20210709_aws-eks-start/15.png)
+![15](/images/aws-eks-start/15.png)
 
 위와 같은 방법으로 pod를 삭제할 수 있습니다!
 
