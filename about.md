@@ -11,7 +11,7 @@ layout: about
 - Sub: [hyun.sang@parkhyunsang.com](malito:hyun.sang@parkhyunsang.com)
 
 ## Career
-### 목포대학교 정보보호영재교육원 (2017.03~)
+### 목포대학교 정보보호영재교육원 (2017.03~Current)
 목포대학교 정보보호영재교육원에서 정보보호의 기초와 정보보호에 대한 기본적인 공부를 하였습니다.  
 내부 해킹 대회에서 좋은 성적을 거두어서 4권역 해킹 대회를 2번 출전 하였습니다.
 
@@ -21,7 +21,7 @@ layout: about
 - 목포대학교 정보보호영재교육원 고등 전문(2020.03~2020.11)
 - 목포대학교 정보보호영재교육원 고등 전문(2021.03~Current)
 
-### TeamGRIT, Inc. Software Enginner & Researcher
-**TeamGRIT, Inc.(2021.08.09~Current)**에서 소프트웨어 엔지니어 겸 연구원으로 일하고 있습니다.  
-주로 인프라 설계 및 서비스 인프라 개발을 하였습니다.  
-Kubernetes(+Amazon EKS)와 MicroK8s를 사용하였습니다.  
+### TeamGRIT, Inc. Software Enginner & Researcher (2017.08.09~Current)
+**TeamGRIT, Inc.**에서 소프트웨어 엔지니어 겸 연구원으로 일하고 있습니다.  
+주로 인프라 설계와 운영 및 서비스 인프라 개발을 하고 있습니다. 또한 전반적인 인프라에 대한 연구를 진행하고 있습니다.  
+Kubernetes(+Amazon EKS)와 MicroK8s를 사용하고 있습니다.
