@@ -5,7 +5,7 @@ layout: about
 주로 Go를 이용한 백엔드 개발과 Dev-Ops 엔지니어링을 하고 있습니다.  
 다양한 분들과 함께 이야기 나누는 것을 굉장히 좋아합니다! 함께 이야기 나누고 싶으시면 아래 메일로 연락 주시면 감사하겠습니다!  
 
-**Keyword**: ***Go***(gRPC, Virtualization, Back-End...), ***DevOps***(Kubernetes, Docker, Prometheus, Grafana...), ***Amazon Web Services***(Amazon EKS..), ***Terraform***
+**Keyword**: ***Go***(gRPC, Virtualization, Back-End...), ***DevOps***(Kubernetes, Docker, Prometheus, Grafana...), ***Amazon Web Services***(Amazon EKS, S3...), ***Terraform***
 ## Contact
 - Main: [parkhyunsang@kakao.com](malito:parkhyunsang@kakao.com)
 - Main & Work: [hyun.sang@teamgrit.kr](malito:hyun.sang@teamgrit.kr)
