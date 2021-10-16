@@ -5,6 +5,7 @@ layout: about
 주로 Go를 이용한 백엔드 개발과 Dev-Ops 엔지니어링을 하고 있습니다.  
 다양한 분들과 함께 이야기 나누는 것을 굉장히 좋아합니다! 함께 이야기 나누고 싶으시면 아래 메일로 연락 주시면 감사하겠습니다!  
 
+**Keyword**: ***Go***(gRPC, Virtualization, Back-End...), ***DevOps***(Kubernetes, Docker, Prometheus, Grafana...), ***Amazon Web Services***(Amazon EKS..), ***Terraform***
 ## Contact
 - Main: [parkhyunsang@kakao.com](malito:parkhyunsang@kakao.com)
 - Main & Work: [hyun.sang@teamgrit.kr](malito:hyun.sang@teamgrit.kr)
@@ -23,5 +24,5 @@ layout: about
 
 ### TeamGRIT, Inc. Software Enginner & Researcher (2017.08.09~Current)
 **TeamGRIT, Inc.**에서 소프트웨어 엔지니어 겸 연구원으로 일하고 있습니다.  
-주로 인프라 설계와 운영 및 서비스 인프라 개발을 하고 있습니다. 또한 전반적인 인프라에 대한 연구를 진행하고 있습니다.  
+주로 인프라 설계와 운영 및 서비스 인프라 개발을 하고 있습니다. Media Store에 대한 개발 및 운영을 하고 있습니다.  
 Kubernetes(+Amazon EKS)와 MicroK8s를 사용하고 있습니다.
